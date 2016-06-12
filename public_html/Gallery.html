@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Gallery</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="Styles.css">
+        <script>
+            $(document).ready(function () {
+                $("#header").load("Header.html");
+                $("#footer").load("Footer.html");
+            });
+        </script>
+    </head>
+    <body  style="background-color: #300800"> 
+        <header id="header"></header>
+        <div class="container">
+            <section class="gallerysection">
+                <ul style="list-style-type: none">
+                    <li><a href="Images/g1.jpg"><img class="gallery" src="Images/g1.jpg" alt="photo"/></a></li>
+                    <li><a href="Images/g2.jpg"><img src="Images/g2.jpg" alt="photo2" class="gallery"/></a></li>
+                    <li><a href="Images/g3.jpg"><img src="Images/g3.jpg" alt="photo3" class="gallery"/></a></li>
+                    <li><a href="Images/g4.jpg"><img src="Images/g4.jpg" alt="photo4" class="gallery"/></a></li>
+                    <li><a href="Images/g5.jpg"><img src="Images/g5.jpg" alt="photo5" class="gallery"/></a></li>
+                    <li><a href="Images/g6.jpg"><img src="Images/g6.jpg" alt="photo6" class="gallery"/></a></li>
+                    <li><a href="Images/g7.jpg"><img src="Images/g7.jpg" alt="photo7" class="gallery"/></a></li>
+                    <li><a href="Images/g8.jpg"><img src="Images/g8.jpg" alt="photo8"  class="gallery"/></a></li>
+                    <li><a href="Images/g9.jpg"><img src="Images/g9.jpg" alt="photo9" class="gallery"/></a></li>
+                    <li><a href="Images/g10.jpg"><img src="Images/g10.jpg" alt="photo10" class="gallery"/></a></li>
+                    <li><a href="Images/g11.jpg"><img src="Images/g11.jpg" alt="photo11" class="gallery"/></a></li>
+                    <li><a href="Images/g12.jpg"><img src="Images/g12.jpg" alt="photo12" class="gallery"/></a></li>
+                    <li><a href="Images/g13.jpg"><img src="Images/g13.jpg" alt="photo13" class="gallery"/></a></li>
+                    <li><a href="Images/g14.jpg"><img src="Images/g14.jpg" alt="photo14" class="gallery"/></a></li>
+                    <li><a href="Images/g15.jpg"><img src="Images/g15.jpg" alt="photo15" class="gallery"/></a></li>
+                </ul>
+            </section>
+            <footer style="margin-top: 1%">
+                <hr/>
+                <table border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td colspan="3">Follow us on</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.facebook.com/katipellyramya.reddy"><img src="images/fb.png" width="35" height="28"/></a></td>
+                        <td><a href="https://mobile.twitter.com/RamyaReddi35"><img src="images/tweet.png" width="35" height="28"/></a></td>
+                        <td><a href="https://plus.google.com/u/0/103470450486275480016"><img src="images/plus.png" width="35" height="30"/></a></td>
+                    </tr>
+                </table>
+                <p>Copyright © 2015 Spice Kitchen Restaurant & Bar. All rights reserved</p>
+            </footer>
+        </div>
+    </body>
+</html>

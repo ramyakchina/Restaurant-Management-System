@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Lunch Buffet</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="Styles.css">
+        <script>
+            $(document).ready(function () {
+                $("#header").load("Header.html");
+                $("#footer").load("Footer.html");
+            });
+        </script>
+    </head>
+    <body  style="background-color: #300800"> 
+        <header id="header"></header>
+        <div class="container">
+            <section class="buffetsection">
+               <img src="Images/buffet.jpg" alt="buffet" width="940" height="250"/> 
+               <p class="buffetp"> Spice kitchen, where Indian comfort food is served buffet-style in a family-friendly setting.Our Lunch Buffet is sure to intrigue and satisfy your taste buds with a fresh selection of Indian delights.</p>
+               <h4  class="buffeth">Monday - Friday<span>– $11.99 per person</span></h4>
+                <h4  class="buffeth">Saturday & Sunday<span>– $12.99 per person</span></h4>
+                <h4   class="buffeth"> Monday - Friday 11:30 a.m to 2:30 p.m </h4>
+                <h4  class="buffeth"> Saturday & Sunday 11:30 a.m to 3:30 p.m</h4>
+             </section>
+        </div>
+        <footer id="footer"></footer>
+    </body>
+</html>

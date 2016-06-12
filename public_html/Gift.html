@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Gift Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="Styles.css">
+        <script>
+            $(document).ready(function () {
+                $("#header").load("Header.html");
+                 $("#footer").load("Footer.html");
+            });
+        </script>
+    </head>
+    <body  style="background-color: #300800">    
+        <header id="header"></header>
+        <div class="container">
+            <section class="aboutsection">
+                     <img style="padding-left:3%" src="Images/giftcard.png" alt="Gift Card"/>
+                     <ol><li>Spice Kitchen newly introduces gift cards</li>
+                         <li>Buy/Redeem Gift cards at any Spice Kitchen Location</li>
+                         <li>Gift cards available from $10 - $50</li>
+                         <li>Your new gift card will be automatically activated upon  purchase</li>
+                     </ol>  
+                     <img src="Images/gift.jpg" alt="Gift" width="200" height="150" class="gift"/>
+            </section>
+        </div>
+ <footer id="footer" ></footer>
+    </body>
+</html>

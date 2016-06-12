@@ -1,0 +1,220 @@
+
+/*Get rid of default margin*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width:85%;
+    margin :0px auto;
+    font-family: cursive;
+}
+.logo{
+    float:left;
+}
+
+.nav{
+    padding-top: 1%;
+    height:10px;
+    width:90
+}
+nav ul{
+    margin: 0px;
+    padding:0px;
+    
+}
+
+nav ul li {
+    float :left;
+    padding:45px 20px;
+    background-color: orangered;
+    background: linear-gradient(to bottom right, brown,yellow); 
+    padding-top:8px;
+    padding-bottom: 30px;
+    height:0.00001px;
+    text-align: center;
+    width:124px;
+    border-radius: 3px;
+}
+
+ul li a:hover{
+    color:white;
+
+}
+
+ul li ul li {
+    display:none;
+    list-style-type: none;
+    font-size: small;
+    font-weight: bold;
+
+}
+ul li:hover ul li{
+    display:block;
+    padding-top:8px;
+    padding-bottom: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+}
+td a{
+    text-decoration: none;
+    color: orange; 
+    font-size: small
+}
+
+.section{
+    padding-top: 4%;
+    float:left;
+    clear:both;
+    position: absolute;
+    border-radius: 5px;
+    z-index: -1;
+}
+aside{
+    padding-top: 2%;
+    float:right;
+    color: white;
+    width:25%;
+}
+footer{
+    color:white;
+    clear:both;
+    font-size: small;
+   margin-top: 50%;
+}
+article{
+    padding-top:13%;
+}
+
+.buffetsection{
+    background-color:  beige;
+    margin-top: 4%;
+    width: 81%;
+    height: 550px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: -1;
+}
+
+.buffetsection img{
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-left: 2%;
+    z-index: -1;
+}
+.buffetp{
+    font-family: sans-serif;
+    font-size: medium;
+    padding-left:4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    color: black;
+}
+.buffeth{
+    padding-left:4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    color: crimson;
+}
+
+.gallerysection{
+    background-color:  beige;
+     display: block;
+    margin-top: 4%;
+    width: 96%;
+    height: 550px;
+    border-radius: 5px;
+    padding-top: 1%;
+    
+}
+ul li {
+    float:left;
+    padding-left: 1%;
+}
+.aboutsection{
+    background-color:  beige;
+     display: block;
+    margin-top: 4%;
+    width: 81%;
+    height: 85%;
+    border-radius: 5px;
+    padding-top: 1%;
+     position: absolute;
+     z-index: -1;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    color:bisque;
+    padding-top: 2%;
+}
+h5{
+    padding-top: 1%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+address,h4{
+    font-weight: bold;
+    color:brown;
+}
+
+.contactsection{
+    background-color:  beige;
+     display: block;
+    margin-top: 4%;
+    width: 81%;
+    height: 750px;
+    border-radius: 5px;
+    padding-top: 1%;
+     position: absolute;
+     z-index: -1;
+}
+ol{
+    padding-top: 3%;
+}
+ol li{
+    padding-left: 5%;
+    font-weight: bold;
+    list-style-type: none;
+}
+.aboutdiv{
+    color:bisque;
+    padding-right: 14%;
+    padding-left: 3%;
+}
+.gallery{
+    width: 195px;
+    height: 174px;
+    border-radius: 5px;
+}
+.footerimg{
+    width: 35px;
+    height: 28px;
+}
+table{
+    align: center;
+    border: 0;
+    cellspacing: 1; 
+    cellpadding: 3;
+    color: bisque;
+}
+.gift{
+    float:right;
+    padding-right:4%;
+    border-radius: 5px;
+}
+
+.headerimg{
+    width: 35px;
+    height: 30px;
+}
+.jobs{
+    color:bisque;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 3%;
+}
