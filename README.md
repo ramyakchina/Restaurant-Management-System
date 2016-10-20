@@ -1,6 +1,5 @@
 # Restaurant-Management-System
-Designed a restaurant management system website with following
-features.
+Designed website for restaurant with following features.
 * Animations included in the Webpages.
 * This Restaurant Application has email club through which customer can seek for information
 * It provides the information about their gift cards.
